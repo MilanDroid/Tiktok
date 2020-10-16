@@ -59,7 +59,7 @@ const loadUsuariosToFollow = (() => {
                     <div class="text-muted">@${usuario.usuario}</div>
                 </div>
                 <div class="col-5">
-                    <button type="button" class="border-0 btn btn-brand-white text-brand text-nowrap rounded-0 px-4 px-md-4 my-2" onclick="globalFollowUser('${usuario.usuario}')"><b>Follow</b></button>
+                    <button type="button" class="border-0 btn btn-brand-white text-brand text-nowrap rounded-0 px-3 px-md-4 my-2" onclick="globalFollowUser('${usuario.usuario}')"><b>Follow</b></button>
                 </div>
             </div>`;
         }
